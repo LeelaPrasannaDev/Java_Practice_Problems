@@ -1,0 +1,11 @@
+package com.kodnest.countOfAllChar;
+
+import java.util.Scanner;
+
+public class ReverseString {
+	//method to reverse char in each word
+	public void reverseCharactersInword(String inputString) 
+	{
+
+	}
+}

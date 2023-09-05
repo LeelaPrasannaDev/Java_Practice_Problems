@@ -1,0 +1,72 @@
+package com.kn.TwoD_Arrays;
+
+import java.util.Scanner;
+
+public class SumofTwoArraysInTwoD {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// Array Declaration
+		int[][] arr;
+		int[][] brr;
+		// Array Creation
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Enter size to create an array = ");
+		arr = new int[scan.nextInt()][];
+		brr = new int[arr.length][];
+		for (int row = 0; row < arr.length; row++) {
+			System.out.println("Enter array of arrays " + (row + 1) + " to creat = ");
+			int size = scan.nextInt();
+			arr[row] = new int[size];
+			brr[row] = new int[size];
+
+		}
+
+		// Array initialization
+		intialization(arr, brr);
+		// Array Traversing
+		sumArrays(arr, brr);
+
+	}
+
+	private static void intialization(int[][] arr, int[][] brr) {
+		// TODO Auto-generated method stub
+		Scanner scan = new Scanner(System.in);
+		for (int row = 0; row < arr.length; row++) {
+			for (int col = 0; col < arr[row].length; col++) {
+				System.out.println("Enter elements in array of arrays .." + (row + 1) + " = ");
+				arr[row][col] = scan.nextInt();
+			}
+		}
+		for (int row = 0; row < arr.length; row++) {
+			for (int col = 0; col < arr[row].length; col++) {
+				System.out.println("Enter elements in array of arrays = ..." + (col + 1) + " = ");
+				brr[row][col] = scan.nextInt();
+			}
+		}
+
+	}
+
+	private static void sumArrays(int[][] arr, int[][] brr) {
+		int crr[][] = new int[arr.length][arr[0].length];
+		Scanner scan = new Scanner(System.in);
+		for (int row = 0; row < arr.length; row++) {
+			for (int col = 0; col < arr[row].length; col++) {
+				crr[row][col] = arr[row][col] + brr[row][col];
+			}
+		}
+
+		printArr(crr);
+	}
+
+	private static void printArr(int[][] array) {
+		// TODO Auto-generated method stub
+		for (int row = 0; row < array.length; row++) {
+			for (int col = 0; col < array[row].length; col++){
+				System.out.print(array[row][col]+" ");
+			}
+			System.out.println();
+		}
+	}
+
+}

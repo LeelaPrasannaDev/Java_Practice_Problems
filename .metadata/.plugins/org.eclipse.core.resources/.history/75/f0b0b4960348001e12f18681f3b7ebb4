@@ -1,0 +1,9 @@
+package com.kodnest.anagram;
+
+public class DemoCheckAnagramOrNot {
+
+	public static void main(String[] args) {
+		
+	}
+
+}

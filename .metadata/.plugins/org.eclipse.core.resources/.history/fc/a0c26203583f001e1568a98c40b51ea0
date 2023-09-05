@@ -1,0 +1,14 @@
+package com.kodnest.practice;
+
+import java.util.Scanner;
+
+public class CheckMultipleOf3And5 {
+
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Enter a number to check multiple of 3 and 5 = ");
+		int num = scan.nextInt();
+		
+	}
+
+}

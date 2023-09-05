@@ -1,0 +1,25 @@
+
+public class ArthimaticDemo 
+{
+    void add()
+    {
+    	System.out.println("Add for given values = "+t.add);
+    	
+    }
+	void sub()
+	{
+		System.out.println("sub for given values = "+t.sub);
+	}
+	void mul()
+	{
+		System.out.println("mul for given values = "+t.mul);
+	}
+	void div()
+	{
+		System.out.println("div for given values = "+t.div);
+	}
+	void mod()
+	{
+		System.out.println("mod for given values = "+t.mod);
+	}
+}

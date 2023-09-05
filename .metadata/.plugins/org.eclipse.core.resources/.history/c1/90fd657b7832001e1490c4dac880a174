@@ -1,0 +1,51 @@
+package com.kn.TwoD_Arrays;
+
+import java.util.Scanner;
+
+public class SumofTwoArraysInTwoD {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//Array Declaration
+		int [][]arr;
+		int [][]brr;
+		//Array Creation
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Enter base size of array = ");
+		arr = new int[scan.nextInt()][];
+			for(int i=0;i<arr.length;i++)
+			{
+				System.out.println("Enter elements in first array = ");
+				arr[i]=new int[scan.nextInt()];
+				
+			}
+		brr = new int[arr.length][];
+		for(int i=0;i<arr.length;i++)
+		{
+			System.out.println("Enter elements in 2 nd array = ");
+			brr[i]=new int[scan.nextInt()];
+		}
+		
+		//Array initialization
+	intialization(arr,brr);
+		
+		
+	}
+
+	private static void intialization(int[][] arr, int[][] brr) {
+		// TODO Auto-generated method stub
+		Scanner scan = new Scanner(System.in);
+		for(int i=0;i<arr.length;i++)
+		{
+			System.out.println("Enter elements in array of arrays = ");
+			for(int j=0;j<arr[i].length;j++)
+			{
+				System.out.println("Enter elements in 2nd array of arrays = ");
+				arr[i][j]=scan.nextInt();
+			}
+		}
+		
+		
+	}
+
+}

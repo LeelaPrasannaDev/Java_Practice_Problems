@@ -1,0 +1,10 @@
+package com.kodNest.Arrays;
+
+public class ReplacePrimeNumbersByNegitiveOne {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

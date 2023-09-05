@@ -1,0 +1,31 @@
+package com.kodNest.Patterns;
+
+import java.util.Scanner;
+
+public class ReverseHillPattern {
+
+	public static void main(String[] args) {
+		// Reverse hill Increasing space two decreasing stars
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Enter number of col and rows = ");
+		int num = scan.nextInt();
+		scan.close();
+		for(int i=1;i<=num;i++)
+		{
+			for(int j=i;j<=i;j++)
+			{
+				System.out.print(" ");
+			}
+			for(int k=1;k<=num;k++)
+			{
+				System.out.print("*");
+			}
+			for(int l=1;l<=num;l++)
+			{
+				System.out.print("*");
+			}
+			System.out.println();
+		}
+	}
+
+}

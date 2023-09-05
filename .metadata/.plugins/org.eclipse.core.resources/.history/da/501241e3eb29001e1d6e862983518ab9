@@ -1,0 +1,10 @@
+package com.kn.nestedForLoop;
+
+public class StarPatternReverse {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,20 @@
+
+public class CalApp {
+	String name;
+	String company;
+	double version;
+	CalApp(String a,String b,double c)
+	{
+		this.name=name;
+		this.company=company;
+		this.version=version;
+		System.out.println("Your Gadget name =  "+c1.name);
+		System.out.println("Your Gadget company = "+ c1.company);
+		System.out.println("Your Gadget version =  "+c1.version);
+	}
+	void welcome()
+	{
+		System.out.println("..............Welcome.............");
+		System.out.println("This is an Arthematic calculation App");
+	}
+}

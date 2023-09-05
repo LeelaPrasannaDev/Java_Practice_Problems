@@ -1,0 +1,43 @@
+package com.kn.arrays;
+
+import java.util.Scanner;
+
+public class FindElementInArray {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//Array declaration
+		int arr[];
+		//Array creation
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Enter array length = ");
+		arr = new int [scan.nextInt()];
+		//Array intialization
+		for(int i=0;i<arr.length;i++)
+		{
+			System.out.println("enter elements for an array = ");
+			arr[i]=scan.nextInt();
+		}
+
+		//Array Traversing
+		findElement(arr);
+		
+		
+	}
+// method to find the element in an array
+	private static void findElement(int[] arr) 
+	{
+	 Scanner scan = new Scanner(System.in);
+		System.out.println("enter an element to check wheather it is present in array or not = ");
+		int newarr = scan.nextInt();
+		 for(int i=0;i<arr.length;i++)
+		 {
+			 if(arr[i]==newarr)
+			 {
+				 System.out.println(arr[i]);
+			 }
+		 }
+		
+	}
+
+}

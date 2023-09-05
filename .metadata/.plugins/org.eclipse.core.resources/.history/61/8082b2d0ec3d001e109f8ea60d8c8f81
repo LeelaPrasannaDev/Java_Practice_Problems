@@ -1,0 +1,35 @@
+package com.kodnest.practice;
+
+import java.util.Scanner;
+
+public class ImplicityAndExplicity {
+
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Enter any byte value from -128 to 127 =  ");
+		byte b = scan.nextByte();
+		System.out.println("Enter any short value from -32768 to 32767 = ");
+		short s = scan.nextShort();
+		System.out.println("Enter any int value from -2147483648 to 2147483647 = ");
+		int i = scan.nextInt();
+		System.out.println("Enter any long value from (-2)^63 to (2^63)-1 = ");
+		long l = scan.nextLong();
+		System.out.println("Enter any value of float up to 6 to 7 decimal digits = ");
+		float f = scan.nextFloat();
+		System.out.println("Enter any value of double up to 15 decimal digits = ");
+		double d = scan.nextDouble();
+		System.out.println("Given values "+"\n Byte = "+b+"\n short = "+s+"\n int = "+i+"\n long ="+l+"\n float ="+f+"\n double = "+d);
+		System.out.println("Implicity");
+		i = s+b;
+		l = s+b+i;
+		d = f+i;
+		System.out.println("After Implicity changed values"+"\n Addition of short and byte stored in int ="+i+"\n Addition of byte and short and int stored in long = "+l+"\n addition of float and int stored in double = "+d);
+		System.out.println("Explicity");
+		b=(byte) (s+i);
+		s=(short) (b+b);
+		i = (int)l+i;
+		f = (float)d+f;
+		System.out.println("After Explicity changed values"+"\n Addition of short and int Type casted and stored in byte ="+b+"\n Addition of byte and byte and Type casted and stored in short = "+s+"\n addition of long and int Type casted and stored in int = "+i+"\n addition of double and float Type casted and stored in float = "+f);
+	}
+
+}

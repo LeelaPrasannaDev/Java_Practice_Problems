@@ -1,0 +1,26 @@
+package com.kn.forloop;
+
+import java.util.Scanner;
+
+public class series {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Enter a number to print series = ");
+		double num1 = scan.nextDouble();
+		double result = series(num1);
+		System.out.println(result);
+	}
+
+	private static double series(double num1) {
+		// TODO Auto-generated method stub
+		double sum = 0;
+		for (double i = 1;i<=num1;i++)
+		{
+			sum = sum + 1/i ;
+		}
+		return sum;
+	}
+
+}

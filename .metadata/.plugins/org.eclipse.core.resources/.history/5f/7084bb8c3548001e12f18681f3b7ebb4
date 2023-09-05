@@ -1,0 +1,10 @@
+package com.kodnest.charFrequency;
+
+public class CharFrequency {
+
+	public void charFrequencyMethod(int inputString) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

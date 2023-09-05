@@ -1,0 +1,14 @@
+package com.kodnest.charFrequency;
+
+public class CharFrequency {
+
+	public void charFrequencyMethod(String inputString) {
+		//change String into char array
+		char []arr = inputString.toCharArray();
+		
+		
+		// sort array
+		// count frequency
+	}
+
+}

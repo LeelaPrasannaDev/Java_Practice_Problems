@@ -1,0 +1,22 @@
+package com.kodnest.reversingStringWithSpaces;
+
+public class ReversingStringWithSpaces {
+
+	public void printReversedString(String inputString) {
+		// Convert String into Char Array
+		
+		char[] arr = inputString.toCharArray();
+		
+		//Create duplicate Array with same length
+		char[] crr = new char[arr.length];
+		
+		//Store spaces and reverse
+		
+		for(int i=arr.length;i>=0;i--)
+		{
+			arr[i]=crr[i];
+			System.out.println(crr);
+		}
+	}
+
+}

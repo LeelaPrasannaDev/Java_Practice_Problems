@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="javax.xml.stream.events.EndElement"/>
+    <fullyQualifiedTypeName name="int"/>
+    <fullyQualifiedTypeName name="javax.lang.model.element.Element"/>
+    <fullyQualifiedTypeName name="com.kodnest.day.DivBy4"/>
+    <fullyQualifiedTypeName name="javax.swing.plaf.synth.SynthStyleFactory"/>
+    <fullyQualifiedTypeName name="java.lang.StrictMath"/>
+    <fullyQualifiedTypeName name="java.sql.SQLTransactionRollbackException"/>
+    <fullyQualifiedTypeName name="com.kodNest.Arrays.Student"/>
+    <fullyQualifiedTypeName name="com.kodNest.Arrays.EmployeeArray"/>
+    <fullyQualifiedTypeName name="com.kodNest.Arrays.Employee"/>
+    <fullyQualifiedTypeName name="com.kodnest.countOfAllChar.UpperToLowerAndLowerToUpperCase"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="com.kodnest.countOfAllChar.ReverseString"/>
+    <fullyQualifiedTypeName name="com.kodnest.anagram.CheckAnagramOrNot"/>
+    <fullyQualifiedTypeName name="javax.sound.midi.SysexMessage"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.lang.ArrayIndexOutOfBoundsException"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+</qualifiedTypeNameHistroy>

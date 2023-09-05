@@ -1,0 +1,30 @@
+package com.kodnest.practice;
+
+import java.util.Scanner;
+
+public class Practice {
+
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Enter any value of byte = ");
+		byte b = scan.nextByte();
+		System.out.println("Enter any value of short = ");
+		short s = scan.nextShort();
+		System.out.println("Enter any int value = ");
+		int i = scan.nextInt();
+		System.out.println("Enter any long value = ");
+		long l = scan.nextLong();
+		System.out.println("Enter any value of float = ");
+		float f = scan.nextFloat();
+		System.out.println("Enter any value of double = ");
+		double d = scan.nextDouble();
+		System.out.println(b+" "+s+" "+i+" "+l+" "+f+" "+d);
+		int addition = b+s;
+		long subtract = l-i;
+		float multiplecation = f*b;
+		double division = d/i;
+		System.out.println(" Addition of byte and short = "+addition+"\n Subtraction of long and int = "+subtract+"\n Multiplication of float and byte = "+multiplecation+"\n Division of double and int =  "+division);
+		scan.close();
+	}
+
+}
