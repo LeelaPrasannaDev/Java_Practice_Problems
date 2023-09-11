@@ -1,8 +1,0 @@
-package com.kodnest.anagram;
-
-public class CheckAnagramOrNot {
-	public void  anagramCheckMethod(String inputString1,String inputString2) 
-	{
-		
-	}
-}

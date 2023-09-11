@@ -1,9 +1,0 @@
-package com.kodnest.countOfAllChar;
-
-public class ReverseStringDemo {
-
-	public static void main(String[] args) {
-		// 
-	}
-
-}
